@@ -66,6 +66,7 @@ section common
 ---------------------------------*/
 .inner {
   max-width: 1280px;
+  width: 100%;
   padding: 0 40px;
   margin: 0 auto;
 }
@@ -541,6 +542,7 @@ service
 ---------------------------------*/
 .service {
   max-width: 100%;
+  width: 100%;
   padding: 60px 0 120px;
   position: relative;
 }
@@ -572,6 +574,7 @@ service
   position: relative;
   background-color: #fff;
   max-width: 960px;
+  width: 100%;
   box-shadow: 0 5px 12px rgba(62, 62, 62, 0.2);
   padding: 73px 41px 62px;
   text-align: center;
@@ -667,6 +670,7 @@ result
 .result {
   background-color: #3E3E3E;
   max-width: 100%;
+  width: 100%;
   margin-left: 40px;
   padding: 60px 0 60px 60px;
 }
@@ -820,6 +824,7 @@ price
 
 .price-container {
   max-width: 960px;
+  width: 100%;
   margin: 60px auto 0;
   text-align: center;
 }
@@ -898,12 +903,17 @@ big-bg
 }
 @media screen and (min-width: 1000px) {
   .big-bg::before {
-    height: 2031px;
+    bottom: 256px;
     top: 148px;
     width: 76.5625%;
   }
 }
 
+@media screen and (max-width: 1190px) {
+  .big-bg::before {
+    bottom: 100px;
+  }
+}
 /*--------------------------------
 comments
 ---------------------------------*/
@@ -1011,19 +1021,16 @@ faqs
 
 .faqs-ac {
   margin-top: 60px;
-  margin-left: auto;
-  width: 51%;
-  max-width: 612px;
 }
 @media screen and (max-width: 767px) {
   .faqs-ac {
-    width: 100%;
     margin-top: 40px;
   }
 }
 
 .faqs-ac__wrap {
-  width: 100%;
+  width: 51%;
+  margin-left: auto;
   padding: 16px;
   background-color: #fff;
   transition: all 0.3s ease 0s;
@@ -1203,6 +1210,7 @@ contact us
 
 .contact-container {
   max-width: 960px;
+  width: 100%;
   margin: auto;
   border-radius: 12px;
   background-color: #fff;
@@ -1414,7 +1422,6 @@ contact us
   font-family: inherit;
   color: inherit;
   font-size: 16px;
-  width: 100%;
   resize: vertical;
   margin-top: 4px;
 }
@@ -1620,6 +1627,7 @@ footer
 
 .footer__inner {
   max-width: 1040px;
+  width: 100%;
   padding: 0 40px;
   margin: auto;
   display: flex;
