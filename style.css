@@ -300,7 +300,7 @@ main.open {
 top
 ---------------------------------*/
 .top {
-  background: url(../img/mv.png) center center/cover;
+  background: url(https://github.com/Yuuu-code/Yuuu-code.github.io/blob/main/mv.png?raw=true) center center/cover;
   height: 648px;
 }
 @media screen and (max-width: 767px) {
@@ -459,7 +459,7 @@ news
   right: 14px;
   width: 14px;
   height: 23px;
-  background: url(../icon/news-arrow.svg) no-repeat center center/contain;
+  background: url(https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/news-arrow-1.svg) no-repeat center center/contain;
 }
 @media screen and (max-width: 767px) {
   .news-item__body::after {
@@ -998,7 +998,7 @@ comments
 faqs
 ---------------------------------*/
 .faqs {
-  background: url(../img/qa-bg.png) center center/cover;
+  background: url(https://github.com/Yuuu-code/Yuuu-code.github.io/blob/main/qa-bg.png?raw=true) center center/cover;
   padding: 60px 0 120px;
   position: relative;
   z-index: 1;
@@ -1065,7 +1065,7 @@ faqs
   content: "";
   width: 17px;
   height: 17px;
-  background: transparent url(../icon/plus.svg) no-repeat center center/17px 17px;
+  background: transparent url(https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/ac4c1e8c26268347f8d589028559346d39c4d9b0/plus.svg) no-repeat center center/17px 17px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1073,7 +1073,7 @@ faqs
 }
 .faqs-ac__title.open::after {
   content: "";
-  background: url(../icon/minus.svg) no-repeat center center/17px 5px;
+  background: url(https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/minus.svg) no-repeat center center/17px 5px;
 }
 
 .faqs-ac__text {
@@ -1193,7 +1193,7 @@ contact us
 ---------------------------------*/
 .contact {
   padding: 62px 0;
-  background: url(../img/contact-bg.png) center center/cover;
+  background: url(https://github.com/Yuuu-code/Yuuu-code.github.io/blob/main/contact-bg.png?raw=true) center center/cover;
 }
 @media screen and (max-width: 767px) {
   .contact {
@@ -1210,13 +1210,13 @@ contact us
 
 .contact-head {
   padding: 61px 0 54px;
-  background: url(../img/contact1.png) center center/cover;
+  background: url(https://github.com/Yuuu-code/Yuuu-code.github.io/blob/main/contact1.png?raw=true) center center/cover;
   text-align: center;
   border-radius: 12px 12px 0 0;
 }
 @media screen and (max-width: 767px) {
   .contact-head {
-    background: url(../img/contact1-sp.png) center center/cover;
+    background: url(https://github.com/Yuuu-code/Yuuu-code.github.io/blob/main/contact1-sp.png?raw=true) center center/cover;
     padding: 38px 20px 35px 16px;
   }
 }
