@@ -1,28 +1,27 @@
 $(function(){
   let btn = $('.hamburger__btn')
-  $('.hamburger__btn , .overlay').on('click', function(){
+  $('.hamburger__btn , .overlay,').on('click', function(){
     btn.toggleClass("open");
     $('main').toggleClass("open");
     $('header').toggleClass("open");
     $('footer').toggleClass("open");
     $('.overlay').toggleClass("open");
     if(btn.hasClass("open")){
-      btn.attr('src','./icon/batsu.svg')
+      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/batsu.svg')
     } else {
-      btn.attr('src','./icon/hamburger.svg')
+      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/hamburger.svg')
     }
   });
 
   $(".header-nav ul li a").on("click", function () {
-    btn.removeClass("open");
     $('main').removeClass("open");
     $('header').removeClass("open");
     $('footer').removeClass("open");
     $('.overlay').removeClass("open");
     if(btn.hasClass("open")){
-      btn.attr('src','./icon/batsu.svg')
+      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/batsu.svg')
     } else {
-      btn.attr('src','./icon/hamburger.svg')
+      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/hamburger.svg')
     }
   });
 
