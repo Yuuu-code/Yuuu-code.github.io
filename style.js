@@ -1,33 +1,34 @@
 $(function(){
   let btn = $('.hamburger__btn')
-  $('.hamburger__btn , .overlay,').on('click', function(){
+  $('.hamburger__btn , .overlay').on('click', function(){
     btn.toggleClass("open");
     $('main').toggleClass("open");
     $('header').toggleClass("open");
     $('footer').toggleClass("open");
     $('.overlay').toggleClass("open");
     if(btn.hasClass("open")){
-      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/batsu.svg')
+      btn.attr('src','./icon/batsu.svg')
     } else {
-      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/hamburger.svg')
+      btn.attr('src','./icon/hamburger.svg')
     }
   });
 
   $(".header-nav ul li a").on("click", function () {
+    btn.removeClass("open");
     $('main').removeClass("open");
     $('header').removeClass("open");
     $('footer').removeClass("open");
     $('.overlay').removeClass("open");
     if(btn.hasClass("open")){
-      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/batsu.svg')
+      btn.attr('src','./icon/batsu.svg')
     } else {
-      btn.attr('src','https://raw.githubusercontent.com/Yuuu-code/Yuuu-code.github.io/b881af8912d3accb8cbd9152291d61cae11f5141/hamburger.svg')
+      btn.attr('src','./icon/hamburger.svg')
     }
   });
 
   const swiper = new Swiper('.swiper', {
     // trueでスライダーがループするようになる。
-    loop: false,
+    loop: true,
     // ループ時に何枚のスライドを複製するかを指定。slidesPerView: 'auto'とloopを併用する場合は、このオプションが必要。
     loopedSlides: '2',
     // 一度に何枚のスライドを表示するかを指定。'auto'にすると、各スライドが持つ本来の横幅が指定される。
@@ -36,7 +37,7 @@ $(function(){
     speed: 8000,
     // スライダーが自動再生するようになる。delay…スライドが表示されてから、次のスライドに移動するまでの停止時間を指定。停止させたくないので、0にしておく。disableOnInteraction…falseにすると、ユーザーがスライドをドラッグやスワイプしても、すぐに自動再生が再開する。
     autoplay: {
-      delay: 1,
+      delay: 0,
       disableOnInteraction: false,
     },
   
