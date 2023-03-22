@@ -1,6 +1,6 @@
 $(function(){
   let btn = $('.hamburger__btn')
-  $('.hamburger__btn , .overlay').on('click', function(){
+  $('.hamburger__btn , .overlay, header-nav uh li a').on('click', function(){
     btn.toggleClass("open");
     $('main').toggleClass("open");
     $('header').toggleClass("open");
